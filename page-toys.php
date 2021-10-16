@@ -10,7 +10,7 @@
 
 <div class="toys"">
     <div class="container">
-        <h2 class="subtitle">Мягкие игрушки</h2>
+    <a href="<?php echo get_category_link(3);?>"><h2 class="subtitle">Мягкие игрушки</h2></a>
         <div class="toys__wrapper">
 
             <?php
@@ -40,7 +40,7 @@
                             <div class="toys__item-descr">
                                 <?php the_field('toys_descr'); ?>                            
                             </div>
-                            <div class="minibutton toys__trigger">Подробнее</div>
+                            <a href="<?php echo get_permalink(); ?>" class="minibutton toys__trigger">Подробнее</a>
                         </div>
                     </div>
                 <?php
@@ -50,8 +50,7 @@
 
         </div>
 
-
-        <h2 class="subtitle">Развивающие игрушки</h2>
+        <a href="<?php echo get_category_link(4);?>"><h2 class="subtitle">Развивающие игрушки</h2></a>
         <div class="toys__wrapper">
 
             <?php
@@ -83,7 +82,7 @@
                             <div class="toys__item-descr">
                                 <?php the_field('toys_descr'); ?>     
                             </div>
-                            <div class="minibutton toys__trigger">Подробнее</div>
+                            <a href="<?php echo get_permalink(); ?>" class="minibutton toys__trigger">Подробнее</a>
                         </div>
                     </div>
                     
